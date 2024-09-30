@@ -6,21 +6,24 @@
 #### 1. Создание главной страныцы с товарами. 
 На главном экране распологается надпись "Нет товаров" или карточки с товарами. При нажатии на карточку товара должен осуществляться переход на страницу с информацией о товаре. При нажатии на иконку "Корзина" у карточки товара, товар должен удалиться. При нажатии на плюсик в нижнем углу экрана должен осуществляться переход на страницу с созданием нового товара.
 
-<img src="https://github.com/user-attachments/assets/990df9c4-9dd7-4acc-9663-1330f2370c09" width="300">
+<img src="https://github.com/user-attachments/assets/9aead14c-fee7-4edd-9581-3e1b16856f62" width="300">
+<img src="https://github.com/user-attachments/assets/63eda14e-f051-4d88-b7b5-54dde42670ce" width="300">
 
 Перед удаление появляется окно для подтверждения.
 
-<img src="https://github.com/user-attachments/assets/990df9c4-9dd7-4acc-9663-1330f2370c09" width="300">
+<img src="https://github.com/user-attachments/assets/4f0e3c54-ff27-41b0-9809-78bb34f51b4a" width="300">
+<img src="https://github.com/user-attachments/assets/4b0b8699-eed2-442c-bd70-6580c298137c" width="300">
 
 #### 2. Создание страницы товара. 
 При нажатии на товар осуществляется переход на страницу товара. Можно вернуться на главную страницу, нажав стрелочку в левом верхнем углу
 
-<img src="https://github.com/user-attachments/assets/72d02eb8-e954-410f-a0e4-b54171df541b" width="300">
+<img src="https://github.com/user-attachments/assets/944988fe-fb00-4217-83dc-63ff93cd1b09" width="300">
 
 #### 3. Создание страницы добавления товара. 
 На данной странице вводится информация о товаре. Если есть незаполненные поля, сохранить товар будет не получится. При вводе URL картинки справа от поля ввода появится выбранная картинка при корректном вводе.
 
-<img src="https://github.com/user-attachments/assets/72d02eb8-e954-410f-a0e4-b54171df541b" width="300">
+<img src="https://github.com/user-attachments/assets/393296c9-ed7f-4022-ad18-9727da5f85b0" width="300">
+<img src="https://github.com/user-attachments/assets/c9119618-4a0b-43de-b29c-9136573a7e5a" width="300">
 
 #### Конечный результат
-https://github.com/user-attachments/assets/3c52a154-a48d-4086-99cb-523afa681eff
+
