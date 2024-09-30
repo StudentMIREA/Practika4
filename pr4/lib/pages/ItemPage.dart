@@ -42,6 +42,26 @@ class ItemPage extends StatelessWidget {
                               width: MediaQuery.of(context).size.width * 0.65,
                               height: MediaQuery.of(context).size.width * 0.65,
                               fit: BoxFit.cover,
+                              loadingBuilder:
+                                  (context, child, loadingProgress) {
+                                if (loadingProgress == null) return child;
+                                return const CircularProgressIndicator();
+                              },
+                              errorBuilder: (context, error, stackTrace) {
+                                return Container(
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.65,
+                                  height:
+                                      MediaQuery.of(context).size.width * 0.65,
+                                  color: Colors.amber[200],
+                                  child: const Center(
+                                      child: Text(
+                                    'нет картинки',
+                                    softWrap: true,
+                                    textAlign: TextAlign.center,
+                                  )),
+                                );
+                              },
                             ),
                           ),
                         ),
